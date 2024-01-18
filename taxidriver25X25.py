@@ -280,3 +280,11 @@ print("\n")
 temprow, tempcol=get_starting_location()
 print("Path starting at the random values", temprow,tempcol)
 print(get_shortest_path(temprow, tempcol)) 
+#Get user inputs for starting points
+while True:
+    try:
+        x, y = map(int, input("Enter a x,y value to start at separate by a space: ").split())
+        break
+    except ValueError:
+        print("Invalid input. Please enter two integers separated by a space.")
+print(get_shortest_path(x, y))

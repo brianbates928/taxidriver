@@ -1,5 +1,4 @@
 This is based on the taxi driver problem presented by openAI. I decided to try and make a similar model without using the gym playground. I create a much larger area and create a maze-like environment.
 Then, the model was trained using a q-table to find the fastest way to get from point one (passenger) to point two (destination). This made it so the model could get through the maze and deliver the passenger in the fastest time possible.
 
-![Alt text](https://github.com/brianbates928/taxidriver/blob/main/taxi.png) 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg) 
+https://github.com/brianbates928/taxidriver/blob/main/taxi.png
